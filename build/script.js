@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var users_1 = require("./users");
+var claseFree_1 = require("./claseFree");
+var usuario1 = new users_1["default"];
+usuario1.setId(1);
+usuario1.setFirstName("Lucas");
+usuario1.setLastName("Robinet");
+usuario1.setSuscripcion(new claseFree_1["default"]());
+console.log(usuario1.getId());
+console.log(usuario1.getFirstName());
+console.log(usuario1.getLastName());
+console.log(usuario1.getSuscripcion().tipo());

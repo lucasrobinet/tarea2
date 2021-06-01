@@ -1,0 +1,16 @@
+{
+  "name": "tarea2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "claseBasic.js",
+  "scripts": {
+    "build": "tsc script.ts --outDir build",
+    "start": "ts-node ./script.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.0.0"
+  }
+}
